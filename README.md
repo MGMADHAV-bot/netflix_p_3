@@ -15,7 +15,8 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
 
-
+## schema
+```sql
 CREATE TABLE netflix
 	(
 		show_id VARCHAR(6),
@@ -32,7 +33,7 @@ CREATE TABLE netflix
 		description VARCHAR(250)
 
 	);
-
+```
 	SELECT * FROM netflix;
 
 
